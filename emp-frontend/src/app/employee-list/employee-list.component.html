@@ -1,4 +1,5 @@
-<h2> Employee List</h2>
+
+
 <table class = "table table-striped">
     <thead>
         <tr>
@@ -14,6 +15,7 @@
             <td> {{ employee.lastname }} </td>
             <td> {{ employee.email }} </td>
             <td>
+            
                 <button (click) = "updateEmployee(employee.id)" class = "btn btn-primary"> Update</button>
                 <button (click) = "deleteEmployee(employee.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
                 <button (click) = "employeeDetails(employee.id)" class = "btn btn-info" style="margin-left: 10px"> View</button>

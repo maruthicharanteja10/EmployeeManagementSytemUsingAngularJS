@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Employee } from '../employee';
 import { EmployeeService } from '../employee.service';
 import { Router } from '@angular/router';
-import { first } from 'rxjs';
-import { FormControl, ValidatorFn } from '@angular/forms';
+
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
